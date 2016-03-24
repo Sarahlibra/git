@@ -42,7 +42,7 @@ BEGIN
 
 	OPEN cur;
 	FETCH cur INTO t;
-	SET t='2848370,1477425';
+	#SET t='2848370,1477425';
 	WHILE s<>1 DO
 		IF t<>'' THEN
 				SET i=35;
