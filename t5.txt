@@ -3,7 +3,7 @@ PROCEDURE recsys16.t5()
 BEGIN
   #Routine body goes here...
   DECLARE s int DEFAULT 0;
-  DECLARE t varchar(300);
+  DECLARE t text;
   DECLARE i int;
   DECLARE week1 int;
   DECLARE week2 int;
