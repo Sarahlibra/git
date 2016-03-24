@@ -6,8 +6,7 @@ DELIMITER ;;
 CREATE DEFINER=`root`@`localhost` PROCEDURE `t4_tags`()
 BEGIN
 	DECLARE s int default 0;
-	DECLARE t VARCHAR(300);
-	DECLARE text;  
+	DECLARE t text;
 	DECLARE i int;
 	DECLARE week1 int;
 	DECLARE week2 int;
